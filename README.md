@@ -1,4 +1,4 @@
-# claculator
+# calculator
 it just calculator he can * / + -;
 
 # used thechnologies
@@ -10,4 +10,4 @@ it just calculator he can * / + -;
   </ol>
 
 # link
-https://deniskakaka.github.io/claculator/.
+https://deniskakaka.github.io/calculator/.
