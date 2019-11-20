@@ -1,0 +1,81 @@
+.conteyner {
+  width: 300px;
+  height: 462px;
+  border: 1px solid black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 200px auto;
+}
+.conteyner .monitor {
+  position: relative;
+  height: 80px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 45px;
+  overflow: hidden;
+}
+.conteyner .monitor .expression {
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+}
+.conteyner .monitor .up {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 35px;
+}
+.conteyner .keyboard {
+  height: 390px;
+}
+.conteyner .keyboard .block {
+  display: flex;
+  flex-direction: row;
+}
+.conteyner .keyboard .block div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+  font-size: 20px;
+  cursor: pointer;
+}
+.conteyner .keyboard .block .red {
+  background: red;
+  opacity: 0.8;
+}
+.conteyner .keyboard .bottom {
+  display: flex;
+  flex-direction: row;
+  height: 87px;
+}
+.conteyner .keyboard .bottom #equally {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  background: #FF4500;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  font-size: 50px;
+}
+.conteyner .keyboard .bottom #zero {
+  width: 50%;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  font-size: 50px;
+}

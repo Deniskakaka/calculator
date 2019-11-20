@@ -1,0 +1,89 @@
+//out:../css/main.css
+
+.conteyner{
+    width: 300px;
+    height: 462px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 200px auto;
+
+    .monitor{
+        position: relative;
+        height: 80px;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 45px;
+        overflow: hidden;
+
+        .expression{
+            display: flex;
+            flex-direction: row;
+            font-size: 35px;
+        }
+        .up{
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 35px;
+        }
+    }
+    .keyboard{
+        height: 390px;
+        .block{
+            display: flex;
+            flex-direction: row;
+
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 75px;
+                height: 75px;
+                border: 1px solid black;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .red{
+                background: red;
+                opacity: 0.8;
+            }
+        }
+        .bottom{
+            display: flex;
+            flex-direction: row;
+            height: 87px;
+
+            #equally{
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                height: 75px;
+                background: #FF4500;
+                border-bottom-right-radius: 10px;
+                cursor: pointer;
+                font-size: 50px;
+            }
+            #zero{
+                width: 50%;
+                height: 72px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                height: 75px;
+                font-size: 50px;
+            }
+        }
+       
+        
+    }
+}
