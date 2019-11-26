@@ -1,5 +1,6 @@
 # calculator
-it just calculator he can * / + -;
+
+it's just a calculator, it can divide, multiply, add and subtract, there is also the possibility of resetting and removing the last value
 
 # used thechnologies
   <ol>
